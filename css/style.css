@@ -89,13 +89,14 @@ section {
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: url(..img/background.jpg);
+    background-image: url(../img/background.jpg); /* Corrected path */
     background-size: cover;
     background-position: right center; /* Updated position to right center */
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
+
 
 .slide {
     margin-bottom: 20px;
